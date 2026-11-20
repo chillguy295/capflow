@@ -1,0 +1,4 @@
+{ "rewrites": [
+  { "source": "/px/:token.png", "destination": "/api/px?t=:token" },
+  { "source": "/api/beacon", "destination": "/api/px" }
+] }
