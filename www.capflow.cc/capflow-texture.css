@@ -1,6 +1,0 @@
-/* Static grain over the graphite base, plus a faint blue/cyan wash in the hero.
-   feTurbulence reference: https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feTurbulence */
-body::after{content:"";position:fixed;inset:0;z-index:7;pointer-events:none;background:url("assets/grain.svg") repeat;opacity:.034;mix-blend-mode:soft-light}
-.hero{background-image:radial-gradient(ellipse at 24% 21%,rgba(34,211,238,.05),transparent 48%),radial-gradient(ellipse at 82% 61%,rgba(59,130,246,.05),transparent 42%)}
-#steps{position:relative}
-@media(prefers-contrast:more){body::after{display:none}}
